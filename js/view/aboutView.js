@@ -1,8 +1,4 @@
-function render() {
-
-  const container = document.querySelector('#container');
-  container.innerHTML = ''; //removes the previous elements
-
+function render() { 
   window.location.href = "html/login.html";
 };
 
