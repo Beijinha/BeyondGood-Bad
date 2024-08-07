@@ -1,4 +1,4 @@
-const URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=971047b106704813c630da0a5695afaa";
+const URL = "";
 
 async function fetchData() {
 

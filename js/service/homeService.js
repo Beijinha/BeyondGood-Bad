@@ -2,7 +2,7 @@ const URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=971047b10670
 
 async function fetchData() {
 
-  const response = await fetch(`${URL}`);
+  const response = await fetch(`${URL}`);   
 
   return response.json();
 };
