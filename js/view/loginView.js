@@ -1,4 +1,4 @@
-function render() { 
+function render() {
   window.location.href = "html/login.html";
 };
 

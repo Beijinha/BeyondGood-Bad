@@ -4,17 +4,17 @@ export default {
     path: '/',
     controller: 'homeController'
   },
-  authors: {
-    path: '/authors',
-    controller: 'authorController'
+  Hour: {
+    path: '/24Hour',
+    controller: 'hourController'
   },
-  films: {
-    path: '/films',
-    controller: 'filmController'
+  login: {
+    path: '/login',
+    controller: 'loginController'
   }, 
-  about: {
-    path: '/about',
-    controller: 'aboutController'
+  signup: {
+    path: '/signup',
+    controller: 'signupController'
   },
   currentPath: {
     path: '',
