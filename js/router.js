@@ -6,6 +6,8 @@ async function launchController(controllerName) {
     const module = await import(`./controler/${controllerName}.js`);
     console.log(module);
     module.default.init();
+
+
 }
 
 function setCurrentPath({ path, controller }) {

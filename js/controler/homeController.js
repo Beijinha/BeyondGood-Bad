@@ -1,9 +1,8 @@
 import homeView from '/js/view/homeView.js';
-import HomeService from '/js/service/HomeService.js';
+import filmService from '/js/service/filmService.js';
 
-async function init() {
-  const home = await HomeService.getFilms();
-  homeView.render(home);
+function init() {
+  homeView.render(filmService.getFilm);
 };
 
 export default { init };
