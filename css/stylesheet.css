@@ -61,6 +61,16 @@ main {
     padding: 20px;
 }
 
+.add-to-cart {
+    background: none;
+    border: none;
+    color: black;
+    font: inherit; /* Inherit font from parent */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding: 0; /* Remove padding */
+    margin: 5px; /* Optional: Add margin for spacing between buttons */
+}
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
