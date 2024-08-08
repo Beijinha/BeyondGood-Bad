@@ -52,6 +52,7 @@
         <div id="cartItems"></div>
         <button class="close-cart" onclick="toggleCart()">Close Cart</button>
         <button class="remove-last" onclick="removeLastItem()">Remove Last Item</button>
+        <button class="close-last" onclick="goPay()">Payment</button>
     </div>
 
     <!--Needs to go to services-->
@@ -92,6 +93,10 @@
         addToCartButtons.forEach(button => {
             button.addEventListener('click', addToCart);
         });
+
+        function goPay() {
+            window.location.href = "html/payment.html";
+        }
     </script>
 </body>
 
